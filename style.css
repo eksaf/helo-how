@@ -7,13 +7,14 @@ h1{
 .orange-color{
     color:orange;
 }
-section{
+.flexible-container{
 display:flex;
 margin-bottom: 100px;
 }
 .half-width{
+    
     width:50%;
-    padding:10%;
+    padding-left:2%;
 }
 section img{
     width:90%;
@@ -25,4 +26,26 @@ section img{
     border-radius: 5px;
     font-weight: 700px;
     color:white
+}
+.exp-dev{
+    box-shadow: 10px 10px 40px gray;
+    width:40;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:20px;
+    border-radius:5%;
+    
+    
+
+}
+#border{
+    border-left:10px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice:1;
+
+}
+#lft-bor{
+    border-left:10px solid;
+    border-image:linear-gradient(purple, orange);
+    border-image-slice:1;
 }
